@@ -6,7 +6,7 @@
   <script>
     function get_json(){
       var hr = new XMLHttpRequest();
-      hr.open("GET","user.json",true);
+      hr.open("GET","my_json.php",true);
       hr.onreadystatechange = function(){
         if(hr.readyState === 4 && hr.status === 200){
           var data = JSON.parse(hr.responseText);
