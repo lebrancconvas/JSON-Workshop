@@ -13,7 +13,7 @@
           var result = document.getElementById("result");
           result.innerHTML = "";
           for(var obj in data){
-            result.innerHTML += data[obj].name + " : "+ data[obj].age + " years old" +"<br>" + "<br>";
+            result.innerHTML += data[obj].num + ". " + data[obj].name + " : "+ data[obj].age + " years old" +"<br>" + "<br>";
           }
         }
       }
