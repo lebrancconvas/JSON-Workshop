@@ -18,7 +18,7 @@
         }
       }
       hr.send(null);
-      document.getElementById("result").innerHTML = "รอแปปนึงนะจ๊ะ";
+      document.getElementById("result").innerHTML = "รอแป๊ปนึงนะจ๊ะ กรุณารอสักครู่";
     }
   </script>
 </head>
