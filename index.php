@@ -11,7 +11,10 @@
         if(hr.readyState === 4 && hr.status === 200){
           var data = JSON.parse(hr.responseText);
           var result = document.getElementById("result");
-          result.innerHTML = data.song[0];
+          result.innerHTML = "";
+          for(var obj in data){
+            result.innerHTML += data[obj].name + " : "+ data[obj].age + " years old" +"<br>" + "<br>";
+          }
         }
       }
       hr.send(null);
