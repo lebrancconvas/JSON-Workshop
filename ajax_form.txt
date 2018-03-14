@@ -1,0 +1,13 @@
+function get_json(){
+  var hr = new XMLHttpRequest();
+  hr.open("GET","<ชื่อไฟล์ .json ที่เราต้องการดึงมาแสดงข้อมูล>",true);
+  hr.onreadystatechange = function(){
+    if(hr.readyState === 4 && hr.status === 200){
+      var data = JSON.parse(hr.responseText);
+      var result = document.getElementById("<id แท็กที่เราต้องการให้ข้อมูลจาก JSON ไปแสดง>");
+      result.innerHTML = data.<key ในไฟล์ json ที่เราต้องการให้แสดง value ในหน้าเว็บ>;
+    }
+  }
+  hr.send(null);
+  document.getElementById("result").innerHTML = "<ใส่ข้อความในกรณีที่คำสั่งใต้ if ไม่รัน>";
+}
