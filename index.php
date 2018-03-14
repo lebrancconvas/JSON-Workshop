@@ -11,7 +11,7 @@
         if(hr.readyState === 4 && hr.status === 200){
           var data = JSON.parse(hr.responseText);
           var result = document.getElementById("result");
-          result.innerHTML = data.name;
+          result.innerHTML = data.song[0];
         }
       }
       hr.send(null);
