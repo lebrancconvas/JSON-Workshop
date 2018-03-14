@@ -1,5 +1,17 @@
 {
-  "name":"Lebranc Convas",
-  "age":20,
-  "song":["Baby Baby Baby","Growl"]
+  "u1":{
+    "name":"Lebranc Convas",
+    "age":20,
+    "song":["Baby Baby Baby","Growl"]
+  },
+  "u2":{
+    "name":"Nami Fukushima",
+    "age":17,
+    "song":["Beast","Jib Jib Moow"]
+  },
+  "u3":{
+    "name":"Mrs. Oong Oong",
+    "age":23,
+    "song":["ฝุ่น","รักแท้ในคืนหลอกลวง","Gummy Gummy"]
+  }
 }
